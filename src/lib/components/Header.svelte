@@ -5,7 +5,7 @@
 	];
 </script>
 
-<header class="bg-slate-300 flex justify-between p-4 hover:text-red-500">
+<header class="bg-slate-300 flex justify-between p-4 hover:text-blue-800">
 	<nav>
 		<ul class="flex justify-around gap-4">
 			{#each navItems as { name, href }}
