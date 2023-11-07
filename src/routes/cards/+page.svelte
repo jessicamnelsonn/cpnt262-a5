@@ -1,32 +1,9 @@
 <script>
-  import Card from '../cards/+page.svelte';
-
-  const cards = [
-    {
-      title: 'Card #1', 
-      description: 'Text for #1',
-      image: '/images/cocktail-number-1',
-    },
-    {
-      title: 'Card #2',
-      description: 'Text for #2',
-      image: '/images/cocktail-number-2',
-    },
-    {
-      title: 'Card #3',
-      description: 'Text for #3',
-      image: '/images/cocktail-number-3',
-    },
-  ];
+  import Card from '../../lib/components/Card.svelte';  // Import the Card component
+  import { cards } from '../../lib/data.js';
 </script>
 
-<main>
-  {#each cards as card (card.title)}
-    <Card
-      title={card.title}
-      description={card.description}
-      image={card.image}
-    />
-  {/each}
-</main>
+{#each cards as card}
+  <Card {...card} />
+{/each}
 
