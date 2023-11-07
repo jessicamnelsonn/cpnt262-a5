@@ -1,12 +1,11 @@
  <script>
 	const navItems = [
 		{ name: 'Home', href: '/' },
-		{ name: 'Cocktail Menu', href: '/cards' },
 		{ name: 'Contact', href: '/contact' },
 	];
 </script>
 
-<header class="bg-red-950 text-white flex justify-between p-4">
+<header class="bg-red-800 text-white flex justify-between p-4">
 	<nav>
 		<ul class="flex justify-around gap-4">
 			{#each navItems as { name, href }}
