@@ -5,11 +5,11 @@
 	];
 </script>
 
-<header class="bg-red-800 text-white flex justify-between p-4">
+<header class="bg-slate-300 flex justify-between p-4 hover:text-red-500">
 	<nav>
 		<ul class="flex justify-around gap-4">
 			{#each navItems as { name, href }}
-				<li><a {href}>{name}</a></li>
+				<li class="font-bold text-xl"><a {href}>{name}</a></li>
 			{/each}
 		</ul>
 	</nav>
