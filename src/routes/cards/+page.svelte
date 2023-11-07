@@ -1,5 +1,5 @@
 <script>
-  import Card from '../Card.svelte';
+  import Card from '../cards/+page.svelte';
 
   const cards = [
     {
