@@ -1,6 +1,6 @@
-# CPNT 262 Assignment 5: Components and Props
+# CPNT 262 Achievement 5: Components and Props
 Author: Jessica Nelson
-[Live Site](https://cpnt262-a5-jessican.netlify.app/)
+- [Live Site](https://cpnt262-a5-jessican.netlify.app/)
 
 ## Search Queries
 
